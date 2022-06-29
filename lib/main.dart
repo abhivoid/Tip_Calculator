@@ -17,6 +17,19 @@ class _BillSplitterState extends State<BillSplitter> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("TIP CALCULATOR",style: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 17,
+          fontStyle: FontStyle.italic,
+          color: Colors.white
+        ),),
+        centerTitle: true,
+        shadowColor: Colors.blue.shade800,
+        backgroundColor: Colors.blue.shade400,
+
+
+      ),
       body: Container(
         margin: EdgeInsets.only(top: MediaQuery.of(context).size.height*0.1),
         alignment: Alignment.center,
